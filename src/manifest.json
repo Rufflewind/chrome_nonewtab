@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "No New Tab Page",
+    "description": "Makes the New Tab page empty.",
+    "permissions": [],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    }
+}
